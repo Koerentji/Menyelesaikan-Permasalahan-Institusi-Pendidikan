@@ -1,0 +1,134 @@
+saya ada tugas submission dengan ketentuan  sebagai berikut :
+Submission Akhir: Menyelesaikan Permasalahan Institusi Pendidikan
+## Pengantar :
+Selamat! Akhirnya Anda telah sampai di Proyek Akhir dari kelas ini. Sejauh ini, Anda telah mengerjakan banyak studi kasus dan juga mengenal berbagai tools yang umum digunakan di industri. Selain itu, Anda juga telah mengenal berbagai layanan cloud yang bisa digunakan untuk mengerjakan proyek data science. Good job!
+
+Nah, untuk lulus dari kelas ini, Anda harus mengerjakan proyek akhir sesuai kriteria yang akan disampaikan nanti. Pada proyek akhir ini, Anda perlu mengidentifikasi masalah yang dihadapi Jaya Jaya Institut (nama fiktif) lalu membuat solusi untuk menjawabnya. Bagaimana, cukup menarik bukan? Mari kita simak background story dari proyek yang akan Anda kerjakan.
+
+Peringatan! 
+
+Skenario dalam proyek ini hanyalah fiktif belaka. Apabila terdapat kesamaan nama tokoh, perusahaan, ataupun produk, itu adalah kebetulan semata dan tidak ada unsur kesengajaan.
+
+
+
+Background
+Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik. Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout.
+
+Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
+
+Nah, sebagai calon data scientist masa depan Anda diminta untuk membantu Jaya Jaya Institut dalam menyelesaikan permasalahannya. Mereka telah menyediakan dataset yang dapat Anda unduh melalui tautan berikut: https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md. Selain itu, mereka juga meminta Anda untuk membuatkan dashboard agar mereka mudah dalam memahami data dan memonitor performa siswa. 
+
+Apakah Anda siap menjawab tantangan tersebut? Tentunya siap dong!
+
+## Kriteria
+Terdapat 5 kriteria utama yang harus Anda penuhi dalam mengerjakan proyek submission pertama ini.
+
+Kriteria 1: Menggunakan Templat Proyek yang Telah Disediakan
+Pada submission ini, Anda harus menjalankan proyek data science menggunakan templat proyek yang telah disediakan. Templat ini dapat Anda unduh melalui tautan berikut: https://github.com/dicodingacademy/a590-Belajar-Penerapan-Data-Science/tree/a590_proyek_akhir/a590_proyek_akhir. Jangan lupa untuk melengkapi dokumen Markdown (.md).
+
+Kriteria 2: Menjalankan Seluruh Proses dalam Proyek Data Science
+Mirip seperti berbagai studi kasus sebelumnya, Anda harus melakukan seluruh proses dalam proyek data science mulai dari business understanding sampai deployment (dapat dijalankan pada Streamlit Community Cloud). Semua tahapan tersebut harus terdokumentasi dengan rapi sesuai dengan template proyek yang telah disediakan. Selain itu, pastikan untuk menyertakan kesimpulan atau conclusion pada berkas Markdown (.md) sebagai jawaban dari permasalahan yang dihadapi oleh Jaya Jaya Institut.
+
+Kriteria 3: Membuat Minimal Satu Dashboard
+Pada proyek ini Anda diminta untuk membuat minimal satu dashboard untuk membantu Jaya Jaya Institut dalam memahami data dan memonitor performa siswa. Pada prosesnya, Anda dapat menggunakan metabase (https://www.metabase.com/) sebagai tool utama. Pastikan untuk menyertakan email dan password pada berkas Markdown (.md). Sebagai alternatif, Anda dapat menggunakan email “root@mail.com” dan password “root123”. Setelah selesai membuat dashboard, Anda perlu mengekspor dashboard beserta database instance dari container metabase. Hal ini dapat Anda lakukan dengan menjalankan perintah berikut (perintah di bawah ini mengasumsi nama container yang Anda buat adalah metabase).
+
+docker cp metabase:/metabase.db/metabase.db.mv.db ./
+Sebagai alternatif, Anda juga dapat menggunakan berbagai tools lain seperti tableau public ataupun looker studio. Jika menggunakan kedua tools tersebut, pastikan Anda menyertakan link untuk mengakses dashboard yang telah Anda buat.
+
+Perlu diingat, bahwa dashboard yang Anda buat di anggap tidak valid jika hanya menampilkan data dalam bentuk tabel tanpa adanya visualisasi data yang mudah dipahami. Selain itu, dashboard tersebut dianggap tidak valid jika tidak menampilkan faktor penting dalam memonitor performa siswa. Serta pastikan juga dashboard yang Anda buat dapat diakses oleh reviewer (jika menggunakan tableau public ataupun looker studio). 
+
+Kriteria 4: Membuat Minimal Satu Solusi Machine Learning yang Siap Digunakan
+Selain membuat dashboard, Anda juga diminta untuk mengembangkan solusi machine learning yang siap digunakan oleh user dalam bentuk prototype yang dibuat menggunakan streamlit. Jangan lupa menyematkan tahapan untuk menjalankan prototype tersebut. 
+
+Selain itu, pastikan Anda juga telah berhasil menghubungkan prototype tersebut dengan Streamlit Community Cloud sehingga ia dapat dijalankan pada environment cloud dan diakses secara remote. Kemudian sertakan link untuk mengakses prototype tersebut pada dokumen Markdown (.md).
+
+Kriteria 5: Merekomendasikan Action Items
+Berdasarkan hasil dalam proyek data science yang telah Anda kerjakan, berikan beberapa rekomendasi action items yang dapat diikuti oleh perusahaan untuk mencapai target mereka. Action items tersebut dapat Anda tuliskan dalam dokumen Markdown (.md).
+
+## Penilaian
+Submission Anda akan dinilai oleh Reviewer guna menentukan kebenaran submission yang dikerjakan. Supaya bisa lulus dari kelas ini, proyek Anda mesti memenuhi seluruh kriteria yang ada. Apabila ada ketentuan dalam kriteria yang belum terpenuhi, proyek Anda akan kami tolak.
+
+Submission Anda akan dinilai oleh Reviewer dengan penilaian bintang berskala 1-5. Untuk mendapatkan nilai tinggi, Anda bisa menerapkan beberapa saran berikut:
+
+Membuat video singkat (maksimal 5 menit). Video tersebut harus menjelaskan beberapa poin berikut:
+Menjelaskan solusi machine learning yang digunakan.
+Menjelaskan dashboard yang telah dibuat.
+Menjelaskan kesimpulan atau conclusion dari proyek tersebut.
+Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan dalam proyek data science. 
+Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
+Membuat prototype sistem machine learning dengan tampilan UI yang bagus dan mudah digunakan.
+Berikut adalah detail penilaian submission:
+
+rating-default-1
+Semua ketentuan wajib terpenuhi, tetapi terdapat indikasi kecurangan atau plagiasi dalam mengerjakan submission.
+
+rating-default-2
+Semua ketentuan wajib terpenuhi, tetapi tidak menerapkan saran sama sekali.
+
+rating-default-3
+Semua ketentuan wajib terpenuhi dan menerapkan minimal 1 saran di atas.
+
+rating-default-4
+Semua ketentuan wajib terpenuhi dan menerapkan minimal 2 saran di atas.
+
+rating-default-5
+Semua ketentuan wajib terpenuhi dan menerapkan semua saran di atas.
+
+Catatan:
+
+Jika submission Anda ditolak maka tidak ada penilaian. Kriteria penilaian bintang di atas hanya berlaku jika submission Anda lulus.
+
+## Lainnya 
+Berikut beberapa tips yang perlu Anda perhatikan.
+•	Berikut merupakan beberapa cheat sheet yang dapat membantu Anda dalam mengerjakan proyek ini.
+o	Pandas cheat sheet : https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+o	Matplotlib cheat sheet : https://matplotlib.org/cheatsheets/_images/cheatsheets-1.png
+o	Seaborn cheat sheet : https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts
+o	Tableau cheat sheet : https://towardsdatascience.com/the-ultimate-cheat-sheet-on-tableau-charts-642bca94dde5
+o	The Ultimate Guide to Google Looker Studio 2023 : https://bymarketers.co/the-ultimate-guide-to-google-data-studio/
+o	Metabase documentation : https://www.metabase.com/docs/latest/
+o	Streamlit cheat sheet : https://docs.streamlit.io/library/cheatsheet
+•	Berikut merupakan panduan dalam pembuatan berkas markdown (.md): Github Guides: Mastering Markdown. (https://guides.github.com/features/mastering-markdown/)
+•	Berikut merupakan panduan dalam membuat akun streamlit: Sign up for Streamlit Community Cloud. (https://docs.streamlit.io/streamlit-community-cloud/get-started#:~:text=on%20your%20team-,Sign%20up%20for%20Streamlit%20Community%20Cloud,-Streamlit%27s%20Community%20Cloud)
+•	Berikut merupakan panduan dalam men-deploy streamlit app: Deploy a streamlit app. (https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app#:~:text=Deploy%20an%20app-,Deploy%20an%20app,-Streamlit%20Community%20Cloud)
+
+Ketentuan Pengiriman Submission
+Berikut merupakan beberapa poin yang perlu diperhatikan ketika mengirimkan submission.
+•	Berkas submission yang dikirim merupakan folder proyek submission akhir dalam format ZIP. Ia mengandung beberapa berkas seperti berikut.
+o	Berkas Jupyter Notebook atau Colab Notebook (.ipynb). Pastikan berkas notebook tersebut sudah dijalankan.
+o	Berkas Python (.py) yang digunakan untuk menjalankan prototype sistem machine learning.
+o	Berkas requirements.txt yang berisi berbagai library yang digunakan dalam proses analisis data. Berikut contoh berkas requirements yang digunakan pada proyek latihan: contoh_requirements.txt. (https://github.com/dicodingacademy/a590_proyek_akhir/blob/main/contoh_requirements.txt)
+o	Berkas Markdown (.md) yang berisi dokumentasi proyek, action items, dan cara menjalankan sistem machine learning yang dibuat.
+o	Screenshot dashboard yang telah dibuat: <username_dicoding>-dashboard.
+o	Menyertakan seluruh kebutuhan (dependencies) untuk menjalankan proyek data science seperti model, module, Dockerfile, dll.
+o	Berkas metabase.db.mv.db (jika membuat dashboard dengan metabase).
+•	Jika Anda menerapkan saran pertama, lampirkan video singkat Anda pada folder submission dengan format <username_dicoding>-video. Pastikan video tersebut memiliki ukuran yang masuk akal.
+•	Jika Anda menerapkan saran kedua, pastikan Anda memberikan penjelasan singkat mengenai tahapan analisis yang dilakukan dan insight dari output analisis tersebut.
+
+Format Berkas Submission
+Berkas submission yang dikirimkan merupakan sebuah folder yang disimpan dalam bentuk ZIP. Folder berisi beberapa berkas seperti berikut.
+•	Berkas Jupyter Notebook atau Colab Notebook (.ipynb).
+•	Berkas requirements.txt.
+•	Berkas Markdown (.md).
+•	Berkas metabase.db.mv.db (jika membuat dashboard dengan metabase).
+•	Berkas Python (.py).
+•	Berkas model machine learning.
+•	Screenshot dashboard: <username_dicoding>-dashboard.
+•	Video singkat jika menjalankan saran pertama.
+Berikut merupakan struktur direktori submission yang kami sarankan.
+submission
+├───model
+├───notebook.ipynb
+├───app.py
+├───README.md
+├───<username_dicoding>-dashboard
+├───<username_dicoding>-video
+├───metabase.db.mv.db
+└───requirements.txt
+
+Submission Anda akan Ditolak bila
+•	Kriteria wajib tidak terpenuhi.
+•	Ketentuan berkas submission tidak terpenuhi.
+•	Melakukan kecurangan seperti tindakan plagiarisme.
+
+tolong buatkan rencana untuk mendapatkan penilaian subsmission bintang 5 menggunakan streamlit

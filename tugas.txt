@@ -1,4 +1,3 @@
-saya ada tugas submission dengan ketentuan  sebagai berikut :
 Submission Akhir: Menyelesaikan Permasalahan Institusi Pendidikan
 ## Pengantar :
 Selamat! Akhirnya Anda telah sampai di Proyek Akhir dari kelas ini. Sejauh ini, Anda telah mengerjakan banyak studi kasus dan juga mengenal berbagai tools yang umum digunakan di industri. Selain itu, Anda juga telah mengenal berbagai layanan cloud yang bisa digunakan untuk mengerjakan proyek data science. Good job!
@@ -131,4 +130,3 @@ Submission Anda akan Ditolak bila
 •	Ketentuan berkas submission tidak terpenuhi.
 •	Melakukan kecurangan seperti tindakan plagiarisme.
 
-tolong buatkan rencana untuk mendapatkan penilaian subsmission bintang 5 menggunakan streamlit

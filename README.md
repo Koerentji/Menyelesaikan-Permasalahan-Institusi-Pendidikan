@@ -50,7 +50,7 @@ submission/
 Sebuah *dashboard* interaktif telah dibuat menggunakan Google Looker Studio untuk memberikan *insight* visual mengenai data mahasiswa. *Dashboard* ini menampilkan metrik-metrik kunci dan menyoroti faktor-faktor penting yang mempengaruhi tingkat kelulusan.
 
 **Screenshot Dashboard:**
-![Dashboard Looker Studio](ashim_izzuddin-dashboard.png)
+![Dashboard Looker Studio](https://raw.githubusercontent.com/Koerentji/Menyelesaikan-Permasalahan-Institusi-Pendidikan/63fed8766e642ab2260554f6b07dd604b5397cab/ashim_izzuddin-dashboard.png)
 
 **Link untuk mengakses dashboard:**
 **[Buka Dashboard Interaktif](https://lookerstudio.google.com/reporting/70910924-e8f1-4eab-88bb-d578a24dc2ee)**
@@ -60,6 +60,9 @@ Sebuah *dashboard* interaktif telah dibuat menggunakan Google Looker Studio untu
 Sebuah aplikasi web multi-halaman dibangun menggunakan Streamlit untuk dua tujuan:
 1.  **Halaman Analisis Data:** Menampilkan kembali visualisasi dan *insight* utama dari analisis data eksploratif.
 2.  **Halaman Prediksi Mahasiswa:** Menyediakan antarmuka bagi pengguna (misalnya, staf akademik) untuk memasukkan data seorang mahasiswa dan secara instan mendapatkan prediksi status kelulusan mereka (`Graduate`, `Dropout`, atau `Enrolled`) beserta tingkat probabilitasnya.
+
+**Link untuk mengakses streamlit:**
+**[Buka Streamlit](https://menyelesaikan-permasalahan-institusi-pendidikan-guexypt8wxhaz4.streamlit.app/)**
 
 ### 3. Model Machine Learning
 

@@ -50,7 +50,7 @@ submission/
 Sebuah *dashboard* interaktif telah dibuat menggunakan Google Looker Studio untuk memberikan *insight* visual mengenai data mahasiswa. *Dashboard* ini menampilkan metrik-metrik kunci dan menyoroti faktor-faktor penting yang mempengaruhi tingkat kelulusan.
 
 **Screenshot Dashboard:**
-![Dashboard Looker Studio](https://raw.githubusercontent.com/Koerentji/Menyelesaikan-Permasalahan-Institusi-Pendidikan/63fed8766e642ab2260554f6b07dd604b5397cab/ashim_izzuddin-dashboard.png)
+![Dashboard Looker Studio](https://raw.githubusercontent.com/Koerentji/Menyelesaikan-Permasalahan-Institusi-Pendidikan/0af7852db2b2111d7367b6d3c778a0ea37d6cd4f/ashim_izzuddin-dashboard.png)
 
 **Link untuk mengakses dashboard:**
 **[Buka Dashboard Interaktif](https://lookerstudio.google.com/reporting/70910924-e8f1-4eab-88bb-d578a24dc2ee)**

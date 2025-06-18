@@ -110,6 +110,35 @@ Untuk menjalankan aplikasi Streamlit secara lokal, ikuti langkah-langkah berikut
     ```
     Aplikasi akan terbuka secara otomatis di *browser* Anda.
 
+---
+
+## Rekomendasi Action Items
+
+Berdasarkan analisis data dan hasil dari model *machine learning* yang telah dikembangkan, berikut adalah beberapa rekomendasi tindakan yang dapat diambil oleh Jaya Jaya Institut untuk menekan angka *dropout* dan meningkatkan tingkat kelulusan mahasiswa:
+
+### 1. Implementasikan Sistem Peringatan Dini (Early Warning System)
+- **Aksi:** Manfaatkan aplikasi prediksi yang telah dibangun untuk secara proaktif mengidentifikasi mahasiswa yang memiliki probabilitas *dropout* tinggi di akhir setiap semester, terutama setelah semester pertama dan kedua.
+- **Dasar Pengambilan Keputusan:** Analisis *Feature Importance* menunjukkan bahwa performa akademik di dua semester pertama (jumlah SKS yang lulus dan nilai rata-rata) adalah prediktor terkuat. Intervensi dini adalah kunci.
+
+### 2. Prioritaskan Dukungan Akademik yang Terpersonalisasi
+- **Aksi:** Bagi mahasiswa yang teridentifikasi berisiko tinggi oleh sistem, tawarkan program dukungan akademik secara proaktif. Program ini bisa berupa:
+  - Sesi bimbingan wajib dengan dosen penasihat akademik.
+  - Program tutor sebaya (*peer tutoring*).
+  - Lokakarya (*workshop*) mengenai strategi belajar efektif.
+- **Dasar Pengambilan Keputusan:** Karena performa akademik adalah faktor utama, memberikan dukungan langsung di area ini akan menjadi solusi yang paling berdampak.
+
+### 3. Perluas Program Bantuan Keuangan dan Tawarkan Fleksibilitas Pembayaran
+- **Aksi:**
+  - Memperluas jangkauan program beasiswa, terutama ditargetkan untuk mahasiswa yang menunjukkan potensi akademik tetapi memiliki kesulitan finansial.
+  - Membuat skema pembayaran SPP yang lebih fleksibel atau program cicilan bagi mahasiswa yang terdeteksi memiliki tunggakan.
+- **Dasar Pengambilan Keputusan:** Analisis menunjukkan bahwa mahasiswa penerima beasiswa memiliki tingkat *dropout* yang jauh lebih rendah, dan status tunggakan SPP (`Tuition_fees_up_to_date`) adalah salah satu dari lima prediktor *dropout* teratas.
+
+### 4. Kembangkan Program Dukungan Khusus untuk Mahasiswa Dewasa (Mature Students)
+- **Aksi:** Merancang program orientasi atau kelompok dukungan yang spesifik untuk mahasiswa yang mendaftar pada usia yang lebih tua. Menawarkan fleksibilitas jadwal kuliah (misalnya, kelas malam atau akhir pekan) juga bisa sangat membantu.
+- **Dasar Pengambilan Keputusan:** Analisis data eksploratif menunjukkan bahwa mahasiswa yang mendaftar di usia yang lebih tua memiliki risiko *dropout* yang lebih tinggi, kemungkinan karena harus menyeimbangkan antara studi dengan komitmen pekerjaan dan keluarga.
+
+Dengan menerapkan rekomendasi berbasis data ini, Jaya Jaya Institut tidak hanya dapat menurunkan angka *dropout*, tetapi juga meningkatkan reputasi dan keberhasilan lulusannya secara keseluruhan.
+
 ## Penulis
 
 * **Nama:** Muhammad Ashim Izzuddin

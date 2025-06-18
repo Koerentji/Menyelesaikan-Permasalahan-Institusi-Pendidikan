@@ -62,7 +62,7 @@ Sebuah aplikasi web multi-halaman dibangun menggunakan Streamlit untuk dua tujua
 2.  **Halaman Prediksi Mahasiswa:** Menyediakan antarmuka bagi pengguna (misalnya, staf akademik) untuk memasukkan data seorang mahasiswa dan secara instan mendapatkan prediksi status kelulusan mereka (`Graduate`, `Dropout`, atau `Enrolled`) beserta tingkat probabilitasnya.
 
 **Link untuk mengakses streamlit:**
-**[Buka Streamlit](https://menyelesaikan-permasalahan-institusi-pendidikan-guexypt8wxhaz4.streamlit.app/)**
+**[Buka Streamlit](https://menyelesaikan-permasalahan-institusi-pendidikan-uwdfjtcyfwbqr7.streamlit.app/)**
 
 ### 3. Model Machine Learning
 
